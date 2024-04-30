@@ -1,19 +1,25 @@
-import styled, { css } from "styled-components";
+import { ComponentProps } from '@/@types'
 
-export const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100vw;
-    height: 100vh;
+import SideMenu from './SideMenu'
+import { Container, Body, Content, Menu, Header } from './styles'
+import TopHeader from './TopHeader'
 
-    display: flex;
-    flex-direction: column;
+export { AppTitle, AppSubTitle } from './styles'
 
-    padding: ${theme.spacings.medium};
-  `}
-`;
+export default function AppContainer({ children }: ComponentProps) {
+  return (
+    <Container>
+      <Menu>
+        <SideMenu />
+      </Menu>
 
-export const Header = styled.header`
-  ${({ theme }) => css`
-    margin-bottom: ${theme.spacings.medium};
-  `}
-`;
+      <Body>
+        <Header>
+          <TopHeader />
+        </Header>
+
+        <Content>{children}</Content>
+      </Body>
+    </Container>
+  )
+}
