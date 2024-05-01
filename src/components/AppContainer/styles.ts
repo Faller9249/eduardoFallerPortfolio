@@ -34,7 +34,7 @@ export const Menu = styled.aside`
   ${({ theme }) => css`
     min-width: 30rem;
     margin: ${theme.spacings.xmsmall} 0;
-    border: ${theme.border.solidWhite30};
+    border: ${theme.border.white};
     border-radius: ${theme.border.radius};
 
     background: ${theme.colors.black};
@@ -56,7 +56,7 @@ export const Content = styled.div`
 export const AppTitle = styled.div`
   ${({ theme }) => css`
     font-weight: ${theme.font.bold};
-    font-size: ${theme.font.sizes.xxlarge};
+    font-size: ${theme.spacings.xxlarge};
 
     margin-bottom: ${theme.spacings.xmsmall};
   `}
@@ -65,7 +65,7 @@ export const AppTitle = styled.div`
 export const AppSubTitle = styled.div`
   ${({ theme }) => css`
     font-weight: ${theme.font.medium};
-    font-size: ${theme.font.sizes.small};
+    font-size: ${theme.font.small};
     color: ${theme.colors.white};
   `}
 `
