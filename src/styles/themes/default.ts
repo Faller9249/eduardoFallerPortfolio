@@ -9,14 +9,16 @@ export default {
         modal: "rgba(254,220,1,1)"
     },
     spacings: {
-        xxsmall: '0.8rem',
-        xmsmall: '1.2rem',
-        xsmall: '1.6rem',
-        small: '2.4rem',
-        medium: '3.2rem',
+        xxsmall: '1rem',
+        xmsmall: '1.5rem',
+        xsmall: '2rem',
+        small: '2.5rem',
+        medium: '3rem',
         large: '4.0rem',
         xlarge: '4.8rem',
-        xxlarge: '5.6rem'
+        xxlarge: '5.6rem',
+        big: '6rem',
+        huge: '8rem'
     },
     border:{
       solid: '1px solid #B2B2B2',

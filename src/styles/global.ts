@@ -13,8 +13,8 @@ ${({ theme }) => css`
       color: ${theme.colors.white};
       background: ${theme.colors.background};
       -webkit-font-smoothing: antialiased;
-      -webkit-text-stroke-width: 2rem;
-      -webkit-text-stroke: ${theme.colors.black}
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #000;
       overflow: hidden;
     }
 

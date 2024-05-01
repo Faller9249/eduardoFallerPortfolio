@@ -56,7 +56,7 @@ export const Content = styled.div`
 export const AppTitle = styled.div`
   ${({ theme }) => css`
     font-weight: ${theme.font.bold};
-    font-size: ${theme.spacings.xxlarge};
+    font-size: ${theme.spacings.huge};
 
     margin-bottom: ${theme.spacings.xmsmall};
   `}
@@ -64,8 +64,8 @@ export const AppTitle = styled.div`
 
 export const AppSubTitle = styled.div`
   ${({ theme }) => css`
-    font-weight: ${theme.font.medium};
-    font-size: ${theme.font.small};
+    font-weight: ${theme.font.bold};
+    font-size: ${theme.spacings.medium};
     color: ${theme.colors.white};
   `}
 `
