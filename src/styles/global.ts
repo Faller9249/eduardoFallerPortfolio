@@ -10,12 +10,13 @@ ${({ theme }) => css`
     }
 
     body {
-      color: ${theme.colors.white};
+      color: ${theme.colors.black};
       background: ${theme.colors.background};
       -webkit-font-smoothing: antialiased;
+      /* -webkit-font-smoothing: antialiased;
       -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #000;
-      overflow: hidden;
+      -webkit-text-stroke-color: #000; */
+      /* overflow: hidden; */
     }
 
     #root,
@@ -82,7 +83,7 @@ ${({ theme }) => css`
     }
 
     .modal-overlay {
-      background: ${theme.colors.white};
+      background: ${theme.colors.background};
       position: fixed;
       top: 0;
       bottom: 0;

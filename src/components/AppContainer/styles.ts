@@ -7,9 +7,6 @@ export const Container = styled.div`
 
     display: flex;
 
-    background-image: url('/assets/background.svg');
-    background-size: cover;
-
     padding: ${theme.spacings.medium};
   `}
 `

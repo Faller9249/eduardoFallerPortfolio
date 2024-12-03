@@ -8,7 +8,6 @@ export default function Home() {
     <AppContainer>
       <AppTitle>Home</AppTitle>
       <AppSubTitle>SubTitulo</AppSubTitle>
-
       <Grid>
       </Grid>
     </AppContainer>

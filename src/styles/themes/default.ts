@@ -5,8 +5,9 @@ export default {
         primaryBlue: '#a92b2e',
         primaryRed: '#035dbd',
         primaryGreen: '#087148',
-        background: "linear-gradient(100deg, rgba(254,220,1,1) 0%, rgba(254,1,220,1) 49%, rgba(1,220,254,1) 100%)",
+        background: "#000",
         modal: "rgba(254,220,1,1)"
+        //"linear-gradient(100deg, rgba(254,220,1,1) 0%, rgba(254,1,220,1) 49%, rgba(1,220,254,1) 100%)"
     },
     spacings: {
         xxsmall: '1rem',
