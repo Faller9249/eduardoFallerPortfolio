@@ -7,7 +7,8 @@ export const Container = styled.div`
 
     display: flex;
 
-    padding: ${theme.spacings.medium};
+    flex-direction: column;
+    background-color: ${theme.colors.backgroundDark};
   `}
 `
 
@@ -29,12 +30,10 @@ export const Body = styled.div`
 
 export const Menu = styled.aside`
   ${({ theme }) => css`
-    min-width: 30rem;
-    margin: ${theme.spacings.xmsmall} 0;
-    border: ${theme.border.white};
-    border-radius: ${theme.border.radius};
-
-    background: ${theme.colors.black};
+    width: 100%;
+    margin: 0;
+    background-color: ${theme.colors.backgroundMenuDark};
+    box-shadow: 8px 8px 8px 8px ${theme.colors.shadow};
   `}
 `
 
@@ -53,8 +52,9 @@ export const Content = styled.div`
 export const AppTitle = styled.div`
   ${({ theme }) => css`
     font-weight: ${theme.font.bold};
-    font-size: ${theme.spacings.huge};
-
+    font-size: ${theme.spacings.xxlarge};
+    color: ${theme.colors.primaryRed};
+    
     margin-bottom: ${theme.spacings.xmsmall};
   `}
 `
@@ -62,7 +62,7 @@ export const AppTitle = styled.div`
 export const AppSubTitle = styled.div`
   ${({ theme }) => css`
     font-weight: ${theme.font.bold};
-    font-size: ${theme.spacings.medium};
+    font-size: ${theme.spacings.big};
     color: ${theme.colors.white};
   `}
 `

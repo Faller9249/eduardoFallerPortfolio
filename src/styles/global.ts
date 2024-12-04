@@ -11,7 +11,7 @@ ${({ theme }) => css`
 
     body {
       color: ${theme.colors.black};
-      background: ${theme.colors.background};
+      background: ${theme.colors.backgroundDark};
       -webkit-font-smoothing: antialiased;
       /* -webkit-font-smoothing: antialiased;
       -webkit-text-stroke-width: 1px;

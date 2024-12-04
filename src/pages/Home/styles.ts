@@ -7,10 +7,14 @@ export const Grid = styled.div`
 
     margin-top: ${theme.spacings.small};
 
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas:
-      'know benefits'
-      'products products';
+    display: flex;
+    gap: ${theme.spacings.large};
+    align-content: space-between;
+    justify-content: center;
+
+    p{
+      font-weight: ${theme.font.bold};
+      font-size: ${theme.spacings.small};
+    }
   `}
 `

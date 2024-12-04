@@ -2,10 +2,15 @@ export default {
     colors: {
         white: '#fff',
         black: '#000',
-        primaryBlue: '#a92b2e',
-        primaryRed: '#035dbd',
+        backgroundLight: '#f1f1f1',
+        backgroundDark: '#070917',
+        backgroundMenuDark: '#222638',
+        backgroundMenuLight: '#f1f1f1',
+        primaryBlue: '#035dbd', // 
+        primaryRed: '#a92b2e',
         primaryGreen: '#087148',
         background: "#000",
+        shadow: "rgba(0, 0, 0, 0.2)",
         modal: "rgba(254,220,1,1)"
         //"linear-gradient(100deg, rgba(254,220,1,1) 0%, rgba(254,1,220,1) 49%, rgba(1,220,254,1) 100%)"
     },
@@ -30,8 +35,11 @@ export default {
       greyDark:"1px solid #777",
       radius: '2rem'
     },
-    font: {
-      family: 'Roboto, sans-serif',
+  font: {
+      family: {
+        primary: "'Jomhuria', sans-serif",
+        second: 'Roboto, sans-serif'
+      },
       small: 300,
       normal: 400,
       medium: 500,
@@ -42,5 +50,5 @@ export default {
     transition: {
       medium: 'all 0.4s ease',
       slow: 'all 1s ease'
-    }
+  }
 } as const
