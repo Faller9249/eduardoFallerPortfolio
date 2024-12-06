@@ -11,7 +11,7 @@ export const Button = styled.button`
     border: 1px solid ${theme.colors.primaryRed};
     border-radius: 50%;
 
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.05);
     cursor: pointer;
     transition: transform 0.2s;
 

@@ -6,7 +6,7 @@ export const Container = styled.div`
     grid-template-columns: 2fr 1fr;
     align-items: center;
     background-color: ${theme.colors.backgroundMenuDark};
-    padding: ${theme.spacings.medium};
+    padding: ${theme.spacings.xsmall};
     font-size: ${theme.spacings.medium};
   `}
 `;

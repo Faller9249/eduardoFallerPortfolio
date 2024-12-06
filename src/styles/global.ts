@@ -10,13 +10,12 @@ ${({ theme }) => css`
     }
 
     body {
-      color: ${theme.colors.black};
+      color: ${theme.colors.white};
       background: ${theme.colors.backgroundDark};
       -webkit-font-smoothing: antialiased;
-      /* -webkit-font-smoothing: antialiased;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #000; */
-      /* overflow: hidden; */
+      font-family: ${theme.font.family.second}; /* Alterado para usar a fonte Inter */
+      font-weight: 900; /* Peso 900 */
+      font-style: italic; /* Estilo itálico */
     }
 
     #root,

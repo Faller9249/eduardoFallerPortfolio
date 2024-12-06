@@ -2,13 +2,14 @@ export default {
     colors: {
         white: '#fff',
         black: '#000',
-        backgroundLight: '#f1f1f1',
-        backgroundDark: '#070917',
-        backgroundMenuDark: '#222638',
+        backgroundLight: '#FFD400',
+        backgroundDark: '#050E24',
+        backgroundMenuDark: '#192D5B',
         backgroundMenuLight: '#f1f1f1',
-        primaryBlue: '#035dbd', // 
-        primaryRed: '#a92b2e',
+        primaryBlue: '#00FFFB', // 
+        primaryRed: '#A82937',
         primaryGreen: '#087148',
+        primaryBack: '#FF00C2',
         background: "#000",
         shadow: "rgba(0, 0, 0, 0.2)",
         modal: "rgba(254,220,1,1)"
@@ -38,7 +39,7 @@ export default {
   font: {
       family: {
         primary: "'Jomhuria', sans-serif",
-        second: 'Roboto, sans-serif'
+        second: "'Inter', sans-serif"
       },
       small: 300,
       normal: 400,
@@ -46,6 +47,7 @@ export default {
       semi: 600,
       bold: 700,
       extra: 800,
+      huge: 900
     },
     transition: {
       medium: 'all 0.4s ease',
