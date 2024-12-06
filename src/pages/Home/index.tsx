@@ -1,15 +1,20 @@
-import { Grid, ProfileImage } from "./styles"; // Atualizando para importar a nova estilização da imagem
+import { Grid, ProfileImage, Know, BtnDownloadCV } from "./styles"; // Atualizando para importar a nova estilização da imagem
 import { useInternationalization } from "@/hooks/internationalization";
 import BtnSocial from "@/components/BtnSocial";
 
 import AppContainer from "@/components/AppContainer";
-import { AppDescription, AppSubTitle, AppTitle } from "@/components/AppContainer/styles";
-
+import {
+  AppDescription,
+  AppSubTitle,
+  AppTitle,
+} from "@/components/AppContainer/styles";
+import Language from "@/components/Language";
 
 export default function Home() {
   const { t } = useInternationalization();
   return (
     <AppContainer>
+      <Language />
       <Grid>
         <div>
           {/* Agora a imagem é estilizada através do componente ProfileImage */}
@@ -28,19 +33,36 @@ export default function Home() {
         </div>
       </Grid>
       <Grid>
-        <div>
-          <AppDescription>{t("intro.subtitle")}</AppDescription>
+        <Know>
+          <AppDescription>{t("infoPerfil.title")}</AppDescription>
           <div>
-            <p>{t("intro.aboutMe1")}</p>
-            <p>{t("intro.aboutMe2")}</p>
+            {[1, 2, 3, 4].map((index) => (
+              <p key={index}>{t(`infoPerfil.texto${index}`)}</p>
+            ))}
           </div>
-          <div>
-            <BtnSocial />
+          <div style={{ display: "flex", gap: "2rem" }}>
+            <div>
+              <p>{t("infoPerfil.nameType")}:</p>
+              <p>{t("infoPerfil.ageType")}:</p>
+              <p>{t("infoPerfil.addressType")}:</p>
+              <p>{t("infoPerfil.phoneType")}:</p>
+              <p>{t("infoPerfil.emailType")}:</p>
+            </div>
+            <div>
+              <p>{t("infoPerfil.name")}</p>
+              <p>{t("infoPerfil.age")}</p>
+              <p>{t("infoPerfil.address")}</p>
+              <p>{t("infoPerfil.phone")}</p>
+              <p>{t("infoPerfil.email")}</p>
+            </div>
           </div>
-        </div>
+          <BtnDownloadCV>{t("infoPerfil.downloadCV")}</BtnDownloadCV>
+        </Know>
+
         <div>
           {/* Agora a imagem é estilizada através do componente ProfileImage */}
-          <ProfileImage src="/perfil/edu.png" alt="Perfil de Edu" width={250} />
+          <img src="/perfil/edu.png" alt="Perfil de Edu" width={250} />
+          {/* <ProfileImage src="/perfil/edu.png" alt="Perfil de Edu" width={250} /> */}
         </div>
       </Grid>
       <Grid>

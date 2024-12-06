@@ -4,5 +4,23 @@
         "subtitle": "Eu sou desenvolvedor web",
         "aboutMe1": "Sou desenvolvedor há mais de 3 anos.",
         "aboutMe2": "Minha especialidade é criar e projetar sites, gráficos e muito mais..."
+    },
+    "infoPerfil":{
+        "title": "Olá, meu nome é Eduardo Faller",
+        "texto1": "Tenho três anos de experiência em programação, focando em novas implementações e",
+        "texto2": "correção de problemas. Sou colaborativo em equipe e estou sempre em busca de aprender e",
+        "texto3": "aprimorar minhas habilidades. Para mim, programação é sobre enfrentar desafios diários e",
+        "texto4": "buscar constante melhoria.",
+        "name": "Eduardo Faller",
+        "nameType": "Nomenbre",
+        "age": "33 anos",
+        "ageType": "Idade",
+        "address": "R. Gustavo Barroso, 31 - Centro - Campo Bom - RS, 93700-000, RS, Brasil",
+        "addressType": "Endereço",
+        "phone": "(51) 99213-3253", 
+        "phoneType": "Telefone",
+        "email": "eduardofaller@hotmail.com",
+        "emailType": "Email",
+        "downloadCV": "Baixar CV"
     }
 }

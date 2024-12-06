@@ -4,5 +4,23 @@
         "subtitle": "I am a web developer",
         "aboutMe1": "I have been a developer for over 3 years.",
         "aboutMe2": "My specialty is creating and designing websites, graphics, and much more..."
+    },
+    "infoPerfil": {
+        "title": "Hello, my name is Eduardo Faller",
+        "texto1": "I have three years of experience in programming, focusing on new implementations and",
+        "texto2": "problem-solving. I am a team player and always eager to learn and",
+        "texto3": "improve my skills. For me, programming is about facing daily challenges and",
+        "texto4": "striving for constant improvement.",
+        "name": "Eduardo Faller",
+        "nameType": "Name",
+        "age": "33 anos",
+        "ageType": "Age",
+        "address": "R. Gustavo Barroso, 31 - Centro - Campo Bom - RS, 93700-000, RS, Brasil",
+        "addressType": "Address",
+        "phone": "(51) 99213-3253",
+        "phoneType": "Phone",
+        "email": "eduardofaller@hotmail.com",
+        "emailType": "Email",
+        "downloadCV": "Baixar CV"
     }
 }

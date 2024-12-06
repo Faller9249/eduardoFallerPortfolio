@@ -50,3 +50,38 @@ export const ProfileImage = styled.img`
     }
   `}
 `;
+
+export const Know = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: ${theme.spacings.xsmall};
+
+    p {
+      font-weight: ${theme.font.medium};
+      font-size: ${theme.spacings.xmsmall};
+    }
+
+  `}
+`;
+
+export const BtnDownloadCV = styled.button`
+  ${({ theme }) => css`
+    width: 100%;	  
+    background-color: ${theme.colors.primaryRed};
+    color: ${theme.colors.white};
+    border: none;
+    border-radius: ${theme.border.radius};
+    padding: ${theme.spacings.xsmall} ${theme.spacings.small};
+
+    font-weight: ${theme.font.extra};
+      font-size: ${theme.spacings.medium};
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: ${theme.colors.primaryBlue};
+    }
+  `}
+`;

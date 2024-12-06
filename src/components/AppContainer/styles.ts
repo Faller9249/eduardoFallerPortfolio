@@ -80,7 +80,7 @@ export const AppSubTitle = styled.div`
 
 export const AppDescription = styled.div`
   ${({ theme }) => css`
-    font-weight: ${theme.font.bold};
-    font-size: ${theme.spacings.xxlarge};
+    font-weight: ${theme.font.medium};
+    font-size: ${theme.spacings.large};
   `}
 `
