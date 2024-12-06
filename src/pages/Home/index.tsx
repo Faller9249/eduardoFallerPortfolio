@@ -56,48 +56,23 @@ export default function Home() {
               <p>{t("infoPerfil.email")}</p>
             </div>
           </div>
-          <BtnDownloadCV>{t("infoPerfil.downloadCV")}</BtnDownloadCV>
+          <a href="/documents/CurriculoEduardoFaller.pdf" download>
+            <BtnDownloadCV>{t("infoPerfil.downloadCV")}</BtnDownloadCV>
+          </a>
         </Know>
 
         <div>
-          {/* Agora a imagem é estilizada através do componente ProfileImage */}
           <img src="/perfil/edu.png" alt="Perfil de Edu" width={250} />
-          {/* <ProfileImage src="/perfil/edu.png" alt="Perfil de Edu" width={250} /> */}
         </div>
       </Grid>
       <Grid>
-        <div>
-          {/* Agora a imagem é estilizada através do componente ProfileImage */}
-          <ProfileImage src="/perfil/edu.png" alt="Perfil de Edu" width={250} />
-        </div>
-        <div>
-          <AppTitle>{t("intro.title")}</AppTitle>
-          <AppSubTitle>{t("intro.subtitle")}</AppSubTitle>
-          <div>
-            <p>{t("intro.aboutMe1")}</p>
-            <p>{t("intro.aboutMe2")}</p>
-          </div>
-          <div>
-            <BtnSocial />
-          </div>
-        </div>
+        <p>My Projects</p>
       </Grid>
       <Grid>
-        <div>
-          {/* Agora a imagem é estilizada através do componente ProfileImage */}
-          <ProfileImage src="/perfil/edu.png" alt="Perfil de Edu" width={250} />
-        </div>
-        <div>
-          <AppTitle>{t("intro.title")}</AppTitle>
-          <AppSubTitle>{t("intro.subtitle")}</AppSubTitle>
-          <div>
-            <p>{t("intro.aboutMe1")}</p>
-            <p>{t("intro.aboutMe2")}</p>
-          </div>
-          <div>
-            <BtnSocial />
-          </div>
-        </div>
+        <p>My Experience</p>
+      </Grid>
+      <Grid>
+        <p>Contact</p>
       </Grid>
     </AppContainer>
   );
