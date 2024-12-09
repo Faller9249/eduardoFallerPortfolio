@@ -19,6 +19,16 @@ export const Grid = styled.div`
   `}
 `;
 
+export const Container = styled.div`
+  ${({ theme }) => css` 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+  `}
+`;
 // Estilo para a imagem
 export const ProfileImage = styled.img`
   ${({ theme }) => css`

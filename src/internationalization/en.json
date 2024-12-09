@@ -22,5 +22,8 @@
         "email": "eduardofaller@hotmail.com",
         "emailType": "Email",
         "downloadCV": "Baixar CV"
+    },
+    "experience": {
+        "title": "Minhas experiência"
     }
 }

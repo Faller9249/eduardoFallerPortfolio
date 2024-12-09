@@ -1,4 +1,4 @@
-import { Grid, ProfileImage, Know, BtnDownloadCV } from "./styles"; // Atualizando para importar a nova estilização da imagem
+import { Grid, ProfileImage, Know, BtnDownloadCV, Container } from "./styles"; // Atualizando para importar a nova estilização da imagem
 import { useInternationalization } from "@/hooks/internationalization";
 import BtnSocial from "@/components/BtnSocial";
 
@@ -66,11 +66,16 @@ export default function Home() {
         </div>
       </Grid>
       <Grid>
-        <p>My Projects</p>
+        <Container>
+          <section>{t("experience.title")}</section>
+          <section>{t("experience.title")}</section>
+          <section>{t("experience.title")}</section>
+        </Container>
       </Grid>
       <Grid>
-        <p>My Experience</p>
+        <p>My Projects</p>
       </Grid>
+
       <Grid>
         <p>Contact</p>
       </Grid>
